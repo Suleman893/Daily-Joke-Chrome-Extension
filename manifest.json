@@ -2,8 +2,12 @@
     "name":"DailyJokes",
     "version":"0.0.1",
     "manifest_version": 3,
-    "browser_action":{
+    "action":{
         "default_popup":"popup.html",
-        "default_icon":"logo.png"
-    }
+        "default_icon":"logo.jpg"
+    },
+    "icons":{
+        "128":"logo.jpg"
+    },
+    "permissions":["activeTab"]
 }
